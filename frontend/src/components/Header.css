@@ -1,0 +1,16 @@
+/* Header.css */
+.MuiDrawer-paper {
+  @apply bg-indigo-600 text-white;
+}
+
+.MuiMenu-paper {
+  @apply mt-2;
+}
+
+.MuiButton-contained {
+  @apply transition duration-300;
+}
+
+.MuiButton-contained:hover {
+  @apply bg-gray-100;
+}
